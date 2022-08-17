@@ -1,0 +1,26 @@
+#ser{
+    border-radius: 15px;
+    display:block;
+    margin: 10px;
+    border-color:lightseagreen;
+    color:lightseagreen;
+    width:80px;
+    
+
+}
+#plus{
+    border-radius: 50%;
+    display:block;
+    margin: 10px;
+    background-color:lightseagreen;
+    border-color:lightseagreen;
+    color:white;
+
+}
+#ca{
+    display:block;
+    margin: 10px;
+    background-color:dodgerblue; 
+    color:white;
+    box-shadow: 3px 3px 0px black;
+}
