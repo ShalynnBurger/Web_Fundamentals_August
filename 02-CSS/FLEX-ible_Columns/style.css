@@ -1,0 +1,30 @@
+body{
+    background-color:grey;
+}
+
+.row{
+    background-color:grey;
+    display:flex;
+}
+
+.col{
+    background-color:pink;
+    padding:20px;
+    margin:10px;
+    flex:1;
+}
+
+
+.col-2{
+    background-color:pink;
+    padding:20px;
+    margin:10px;
+    flex:2;
+}
+
+.col-3{
+    background-color:pink;
+    padding:20px;
+    margin:10px;
+    flex:3;
+}
