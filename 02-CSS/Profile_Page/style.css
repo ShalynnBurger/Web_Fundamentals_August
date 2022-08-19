@@ -258,7 +258,6 @@ body{
     height:50px;
     display:flex;
     align-items: center;
-    
     padding:5px;
     margin-top:3px;
     
@@ -270,7 +269,7 @@ body{
     border-radius: 50%;
     border:1px double black;
     background-color:black;
-    margin:5px;
+    margin:8px;
 }
 
 
