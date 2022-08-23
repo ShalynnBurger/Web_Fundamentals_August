@@ -1,7 +1,7 @@
 *{
-    Margin: 0px;
-    Padding: 0px;
-    Box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     }
 
     body{
@@ -63,10 +63,10 @@
     font-size: 40px;
     padding-top: 10px;
 }
-#type{
+.type{
     font-size:20px;
 }
-#plural{
+.plural{
     font-size:17px;
     margin: 8px 0px 17px 0px;
 }

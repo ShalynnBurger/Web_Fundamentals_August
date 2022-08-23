@@ -1,0 +1,35 @@
+*{
+    Margin: 0px;
+    Padding: 0px;
+    Box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 80px;
+}
+.content{
+    border: 3px solid black;
+    width: 320px;
+    padding:15px;
+}
+.top-line{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:15px;
+    
+    
+}
+
+#likes{
+  display:flex;
+}
+
+#likes button{
+    margin-left:15px;
+    width:40px;
+    background-color: rgb(255,216,101);
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+}
