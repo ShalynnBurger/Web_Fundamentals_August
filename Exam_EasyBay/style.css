@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+    body{
+        background-color: white;
+        padding: 0px 50px;
+    }
+
+    .header{
+        display:flex;
+        justify-content: space-between;
+        /* border: 3px solid black; */
+        height:60px;
+        margin-bottom:8px;
+    }
+
+    .company{
+        display:flex;
+        align-items: center;
+        margin-right:10px;
+    }
+
+    .company img{
+        height:30px;
+        width: 30px;
+        background-color: rgb(5,209,178);
+        margin-right:15px;
+    }
+    .company h1{
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .searchBar{
+        display:flex;
+        align-items: center;
+    }
+
+    .searchBar input{
+        width:300px;
+        padding:5px;
+        border-radius:20px;
+        border: 2px solid black;
+    }
+
+    .searchBar img{
+        height:18px;
+        width:18px;
+        position: relative;
+        right:30px;
+    }
+
+    .sign-cart{
+        display:flex;
+        align-items: center;
+    }
+
+    .sign-cart img{
+        height:20px;
+        width:20px;
+        margin-left:20px;
+    }
+    .links{
+        /* border:2px solid orange; */
+        border-bottom: 3px solid black;
+        height: 30px;
+        margin-bottom:20px;
+        
+    }
+    .links ul{
+        display:flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .pageTitle{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;;
+    }
+
+    .row1{
+        display:flex;
+        /* border:2px solid black; */
+        gap:20px;
+        height:200px;
+        margin-top:15px;
+    }
+
+    .box1{
+        flex:2;
+        /* border:2px solid yellow; */
+        display:flex;
+        height:200px;
+        
+    }
+    .explain{
+        /* margin:10px 10px; */
+        text-align: center;
+        padding: 20px;
+        color:white;
+        background-color: rgb(5,209,178);
+        font-size: 20px;;
+    }
+    .explain img{
+        height:30px;
+        width: 30px;
+    }
+    .bottom-line{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:25px;
+        
+    }
+    .bottom-line p{
+        font-weight: bold;
+    }
+    
+    .img-1 img{
+        height:200px;
+        width: 200px;
+
+    }
+    .box2{
+        flex:1;
+        /* border:2px solid green; */
+        width: 100px;
+        
+    }
+    .img-2{
+        /* border: 2px solid yellow; */
+        height:120px;
+        margin-bottom:20px;
+    }
+
+    .img-2 img{
+        height:120px;
+        width:100%;
+    }
+    .aloeLink{
+        /* border: 2px solid blue; */
+        height:60px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        background-color: rgb(5,209,178);
+        font-size: 20px;
+    }
+    .aloeLink img{
+        height:30px;
+        width:30px;
+    }
+
+    .row2{
+        display:flex;
+        margin-top:20px;
+        padding:15px;
+        justify-content: space-between;
+        align-items: center;
+        /* border:2px solid black; */
+        height:200px;
+        background-color: rgb(182,237,235);
+    }
+
+    .typePlant{
+        text-align: center;
+    }
+    .typePlant img{
+        height:80px;
+        width:80px;
+        border-radius:50%;
+    }
+
+    #cookieBox{
+        position:fixed;
+        bottom:20px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0px 20px;
+        border:2px solid black;
+        height:70px;
+        width:615px;
+        background-color: white;
+    }
+
+    #cookieBox img{
+        height:40px;
+        width:40px;
+    }
+    .cookieText{
+        font-size: 15px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .cookieText a{
+        color:blue;
+    }
+    #cookieBox button{
+        width:100px;
+        height:20px;
+        color:white;
+        back;
+        background-color: rgb(5,209,178);
+        border: 2px solid black;
+        box-shadow: 2px 2px 0px black;
+    }
