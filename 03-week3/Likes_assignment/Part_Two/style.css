@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin:0px 60px;
+}
+body a{
+    color:blue;
+}
+.header{
+    background-color:black;
+    height: 55px;
+    color:white;
+    font-size: 20px;
+    padding-left:20px;
+    display:flex;
+    align-items:center;
+}
+
+.title{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 23px;
+}
+
+.contentBody{
+    display:flex;
+    gap:20px;
+}
+.col-1{
+    flex:1;
+    /* border:3px solid green; */
+    height:400px;
+}
+.myCard{
+    padding: 15px 20px;
+    height:200px;
+    width:100%;
+    border: 3px solid black;
+    text-align: center;
+    
+ 
+}
+.myCard img{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    border: 3px double black;
+    background-color: black;
+    margin-bottom:20px;
+    margin-left:28px;
+    display:block;
+    
+   
+    
+}
+.myCard h3{
+    margin-top:  18px;
+}
+
+.col-2{
+    
+    flex:2;
+    /* border:3px solid yellow; */
+    height:400px;
+    
+}
+.content{
+    border: 3px solid black;
+    width: 100%;
+    padding:15px;
+    margin-bottom:10px;
+}
+.top-line{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:15px;
+    
+    
+}
+
+.likes{
+  display:flex;
+}
+
+.likes button{
+    margin-left:15px;
+    width:40px;
+    background-color: rgb(255,216,101);
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+}
+
